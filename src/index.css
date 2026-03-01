@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #f5f0eb;
+  color: #1a1714;
+  font-size: 14px;
+}
+
+select option {
+  background: #fff;
+  color: #1a1714;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
+::-webkit-scrollbar        { width: 5px; }
+::-webkit-scrollbar-track  { background: #ede8e2; }
+::-webkit-scrollbar-thumb  { background: #c8bdb4; border-radius: 99px; }
+
+:focus-visible {
+  outline: 2px solid #c94a2a;
+  outline-offset: 2px;
+}
