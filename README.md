@@ -44,4 +44,6 @@ The app is now running locally.
 
 The app uses **React in-memory state only** - no `localStorage`, `sessionStorage`, or cookies are used. All expense data lives in component state and is cleared on refresh.
 
+### UI
+
 ![UI](image.png)
